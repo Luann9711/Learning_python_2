@@ -70,4 +70,18 @@ for s in ('%s' % c + str(n) for c in ['A', 'B', 'C', 'D'] for n in range(1,21)):
     print(s)
 
 
-# 리스트 주의
+# 리스트 주의 (중요!!)
+marks1 = [['~'] * 3 for _ in range(4)]
+marks2 = [['~'] *3 ] * 4
+print(marks1)
+print(marks2)
+
+# 수정
+marks1[0][1] = 'X'
+marks2[0][1] = 'X'
+print(marks1)
+print(marks2)
+
+# id 값 확인
+print([id(i) for i in marks1])
+print([id(i) for i in marks2])
