@@ -43,8 +43,8 @@ class Car():
 
 
     # Class Method
-    @classmethod
-    def raise_price(cls, per):
+    @classmethod  # 클래스 메소드
+    def raise_price(cls, per):   # 클래스 메소드는 1번째 인자(attribute) 로 cls 를 받는다.
         if per <= 1:
             print('Please enter the number higher then 1')
             return
@@ -52,8 +52,8 @@ class Car():
         print('Succeed! Price Inscreased.')
         
     # Static Method   // cls 값이나 self 값을 받을 필요가 없을때 보다 유연하게 사용할때 필요 (가끔)
-    @staticmethod
-    def is_bmw(inst):
+    @staticmethod     # steticmethod 는 속성에 접근할 수 없기 때문에 self 나 cls 같은 선행 사용인자가 없다.
+    def is_bmw(inst):  
         if inst._company == 'Bmw':
             return 'OK! This car is {}'.format(inst._company)
         return 'This car is not BMW'
