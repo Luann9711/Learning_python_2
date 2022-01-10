@@ -92,7 +92,7 @@ class WordSplitGenerator:
 
     def __iter__(self):
         for word in self._text:
-            yield word  # 제네레이터
+            yield word  # 제네레이터 (코루틴)
         return          # 사실 필요없음
     
     def __repr__(self):
