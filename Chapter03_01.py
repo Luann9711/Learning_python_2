@@ -17,7 +17,7 @@ print(dir(int))
 n = 10
 
 print(n + 180)
-print(n.__add__(180))
+print(n.__add__(180))    # 위 n + 180 은 __add__ 라는 매직 메소드가 호출되는 구조로 실행된다.
 # print(n.__doc__)
 print(n.__bool__(), bool(n))
 print(n.__mul__(13), n * 13)
