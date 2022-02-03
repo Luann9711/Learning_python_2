@@ -2,10 +2,8 @@
 # 파이썬 심화
 # 시퀀스 형과 비시퀀스 타입
 # 컨테이너 (Container : 서로 다른 자료형을 담을 수 있음 (List, Tuple, collections.deque))
-# Flat : 단일 자료형만 담을 수 있음 (str, bytes, bytearray, array, memoryview)
+# Flat : 단일 자료형만 담을 수 있음 (str, bytes, bytearray, array.array, memoryview)
 # 시퀀스 자료형 (순서가 있는 자료형)
-# 컨테이너(Container : 서로다른 자료형[list, tuple, collections.deque]
-# Flat : 한 개의 자료형[str,bytes,bytearray,array.array, memoryview])
 
 # 가변형과 불변형으로 나눌 수 있음
 # 가변(list, bytearray, array.array, memoryview, deque)

@@ -17,7 +17,7 @@ def generator_ex1():
 
     print('End')
 
-
+# iter 는 반복 가능한 계체에서  이터레이터를 반환
 temp = iter(generator_ex1())
 
 # print(temp)
